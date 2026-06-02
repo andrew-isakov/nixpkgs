@@ -3438,6 +3438,8 @@ self: super: with self; {
 
   cuda-pathfinder = callPackage ../development/python-modules/cuda-pathfinder { };
 
+  cuda-tile = callPackage ../development/python-modules/cuda-tile { };
+
   cupy = callPackage ../development/python-modules/cupy { };
 
   curated-tokenizers = callPackage ../development/python-modules/curated-tokenizers { };
@@ -5706,6 +5708,8 @@ self: super: with self; {
   flash-attn = callPackage ../development/python-modules/flash-attn { };
 
   flash-attn-4 = callPackage ../development/python-modules/flash-attn-4 { };
+
+  flash-linear-attention = callPackage ../development/python-modules/flash-linear-attention { };
 
   flash-mla = callPackage ../development/python-modules/flash-mla { };
 
