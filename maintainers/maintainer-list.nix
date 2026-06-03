@@ -9259,6 +9259,12 @@
     githubId = 119691;
     name = "Michael Gough";
   };
+  fraggerfox = {
+    email = "santhosh.raju@gmail.com";
+    github = "fraggerfox";
+    githubId = 189939;
+    name = "Santhosh Raju";
+  };
   fraioveio = {
     email = "francesco@vecchia.lol";
     github = "FraioVeio";
@@ -19513,6 +19519,12 @@
     github = "netixx";
     githubId = 1488603;
     name = "François Espinet";
+  };
+  netpleb = {
+    email = "netpleb@proton.me";
+    github = "netpleb";
+    githubId = 130105838;
+    name = "netpleb";
   };
   netthier = {
     email = "netthier@proton.me";
