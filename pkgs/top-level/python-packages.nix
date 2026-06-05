@@ -216,6 +216,8 @@ self: super: with self; {
 
   aioaquacell = callPackage ../development/python-modules/aioaquacell { };
 
+  aioaquarite = callPackage ../development/python-modules/aioaquarite { };
+
   aioaseko = callPackage ../development/python-modules/aioaseko { };
 
   aioasuswrt = callPackage ../development/python-modules/aioasuswrt { };
@@ -11751,6 +11753,8 @@ self: super: with self; {
   opencamlib = callPackage ../development/python-modules/opencamlib { };
 
   opencc = callPackage ../development/python-modules/opencc { };
+
+  openccu-data = callPackage ../development/python-modules/openccu-data { };
 
   opencensus = callPackage ../development/python-modules/opencensus { };
 
