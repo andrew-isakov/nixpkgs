@@ -479,6 +479,7 @@ mapAliases {
   chrome-gnome-shell = throw "'chrome-gnome-shell' has been renamed to/replaced by 'gnome-browser-connector'"; # Converted to throw 2025-10-27
   ci-edit = throw "'ci-edit' has been removed due to lack of maintenance upstream"; # Added 2025-08-26
   cinnamon-common = cinnamon; # Added 2025-08-06
+  ciopfs = throw "'ciopfs' has been removed due to lack of fuse 3 support."; # Added 2026-06-05
   cisco-packet-tracer_8 = throw "'cisco-packet-tracer_8' has been removed as it vendored qt5 webengine. Consider updating to 'cisco-packet-tracer_9' instead."; # Added 2026-04-26
   ciscoPacketTracer7 = throw "'ciscoPacketTracer7' has been removed in favor of 'cisco-packet-tracer_8' and 'cisco-packet-tracer_9'";
   ciscoPacketTracer8 = cisco-packet-tracer_8; # Added 2026-02-08
@@ -568,6 +569,7 @@ mapAliases {
   crispyDoom = throw "'crispyDoom' has been renamed to/replaced by 'crispy-doom'"; # Converted to throw 2025-10-27
   critcl = throw "'critcl' has been renamed to/replaced by 'tclPackages.critcl'"; # Converted to throw 2025-10-27
   criticality-score = throw "'criticality-score' has been removed, as it is unmaintained upstream"; # Added 2026-02-18
+  cromfs = throw "'cromfs' has been removed due to lack of fuse 3 support. You can try replacing it with dwarfs: https://github.com/mhx/dwarfs#with-cromfs"; # Added 2026-06-05
   cromite = throw "'cromite' has been removed from nixpkgs due to it not being maintained"; # Added 2025-06-12
   crossLibcStdenv = throw "'crossLibcStdenv' has been renamed to/replaced by 'stdenvNoLibc'"; # Converted to throw 2025-10-27
   crystal_1_11 = throw "'crystal_1_11' has been removed as it is obsolete and no longer used in the tree. Consider using 'crystal' instead"; # Added 2025-09-04
@@ -596,6 +598,7 @@ mapAliases {
   curaPlugins = throw "'curaPlugins' has been removed, as it was unmaintained in nixpkgs"; # Added 2026-05-22
   curl-impersonate-chrome = warnAlias "curl-impersonate-chrome has been renamed to curl-impersonate" curl-impersonate; # Added 2025-11-02
   curl-impersonate-ff = throw "curl-impersonate-ff has been removed because it is unmaintained upstream and has vulnerable dependencies. Use curl-impersonate instead."; # Added 2025-11-02
+  curlftpfs = throw "'curlftpfs' has been removed due to lack of fuse 3 support."; # Added 2026-06-05
   curlHTTP3 = warnAlias "'curlHTTP3' has been removed, as 'curl' now has HTTP/3 support enabled by default" curl; # Added 2025-08-22
   cvemap = vulnx; # Added 2026-04-19
   cwe-client-cli = throw "cwe-client-cli has been removed because it is archived and has unclear licensing"; # Added 2026-01-10
