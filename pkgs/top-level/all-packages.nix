@@ -2186,8 +2186,6 @@ with pkgs;
     buildProduct = "daemon";
   };
 
-  fluentd = callPackage ../tools/misc/fluentd { };
-
   fpm = callPackage ../tools/package-management/fpm { };
 
   ferdium = callPackage ../applications/networking/instant-messengers/ferdium {
@@ -9308,10 +9306,6 @@ with pkgs;
   kotatogram-desktop =
     callPackage ../applications/networking/instant-messengers/telegram/kotatogram-desktop
       { };
-
-  kubeval = callPackage ../applications/networking/cluster/kubeval { };
-
-  kubeval-schema = callPackage ../applications/networking/cluster/kubeval/schema.nix { };
 
   kubectl-convert = kubectl.convert;
 
