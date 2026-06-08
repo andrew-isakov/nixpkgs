@@ -5150,6 +5150,13 @@
     githubId = 68239;
     name = "Christine Koppelt";
   };
+  ckruse = {
+    email = "cjk@defunct.ch";
+    github = "ckruse";
+    githubId = 175095;
+    name = "Christian Kruse";
+    keys = [ { fingerprint = "BC5D 9F4E F7FB 4382 6056  E834 B8E0 F342 A99A 9D73"; } ];
+  };
   clacke = {
     email = "claes.wallin@greatsinodevelopment.com";
     github = "clacke";
@@ -16537,6 +16544,11 @@
     github = "Macbucheron1";
     githubId = 95475157;
   };
+  mach = {
+    name = "Mach";
+    github = "MachXNU";
+    githubId = 42501418;
+  };
   macronova = {
     name = "Sicheng Pan";
     email = "trivial@invariantspace.com";
@@ -19156,6 +19168,11 @@
     github = "namore";
     githubId = 1222539;
     name = "Roman Naumann";
+  };
+  NanamiNakano = {
+    name = "Nanami Nakano";
+    github = "NanamiNakano";
+    githubId = 64841155;
   };
   nanotwerp = {
     email = "nanotwerp@gmail.com";
@@ -25337,7 +25354,7 @@
   shelvacu = {
     name = "Shelvacu";
     email = "nix-maint@shelvacu.com";
-    matrix = "@s:consortium.chat";
+    matrix = "@s:sv.mt";
     github = "shelvacu";
     githubId = 1731537;
   };
