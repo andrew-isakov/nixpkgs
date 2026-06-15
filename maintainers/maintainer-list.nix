@@ -10455,6 +10455,11 @@
     githubId = 14929991;
     keys = [ { fingerprint = "F7D3 7890 228A 9074 40E1  FD48 46B9 228E 814A 2AAC"; } ];
   };
+  haansn08 = {
+    name = "Stefan Haan";
+    github = "haansn08";
+    githubId = 6215916;
+  };
   hacker1024 = {
     name = "hacker1024";
     email = "hacker1024@users.sourceforge.net";
@@ -20642,12 +20647,6 @@
     githubId = 64069240;
     matrix = "@olduser101:matrix.org";
     name = "Nathan Gill";
-  };
-  olebedev = {
-    email = "ole6edev@gmail.com";
-    github = "olebedev";
-    githubId = 848535;
-    name = "Oleg Lebedev";
   };
   oleina = {
     email = "antholeinik@gmail.com";
